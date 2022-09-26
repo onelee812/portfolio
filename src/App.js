@@ -3,7 +3,6 @@ import logo from './logo.svg';
 import './App.css';
 import { useState} from 'react';
 
-
 function App(){
 
 
@@ -22,7 +21,15 @@ function App(){
 
     <div className="App">
       <div className="black-nav">
-        <h4>BLOG</h4>  
+        <h1>BLOG</h1>  
+      </div>
+        <h4>ABOUT ME</h4>
+        
+      <div> 
+      <div> 
+        <h4>CODE STUDY</h4>  
+      </div>  
+
       </div>
 
       {
@@ -40,10 +47,6 @@ function App(){
             )
         })
       }
-      <div className="list">
-        <h4>title</h4>
-        <p>2022.07.31</p>
-      </div>
     </div>
   )
   {
