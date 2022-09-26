@@ -4,6 +4,9 @@
 div {
   box-sizing: border-box
 }
+h4 {
+  font-size: 40px;
+}
 .list{
   text-align :center ;
   padding-left: 20px;
@@ -21,6 +24,10 @@ div {
   color:aliceblue;
   width: 100%;
   padding: 20px;
+}
+.profile {
+  width: 20%;
+  height: 20%;
 }
 
 

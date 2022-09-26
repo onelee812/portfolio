@@ -2,6 +2,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { useState} from 'react';
+import img from './static/img/profile.png'
 
 function App(){
 
@@ -24,7 +25,7 @@ function App(){
         <h1>BLOG</h1>  
       </div>
         <h4>ABOUT ME</h4>
-        
+        <img src = {img} className='profile'></img>
       <div> 
       <div> 
         <h4>CODE STUDY</h4>  
